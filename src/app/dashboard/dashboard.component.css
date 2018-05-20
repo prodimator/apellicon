@@ -1,0 +1,41 @@
+/* @font-face {
+ */    /*TODO: support fonts for other browsers*/
+/*     font-family: "Futurist";
+    src: url("../../assets/fonts/FUTRFW.TTF") format("ttf");
+} */
+
+.bg{
+    height: 100vh;
+    background-image: url("../../assets/jade-raddit.png");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title{
+    text-align: center;
+    padding-top: 100px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 100px;
+    font-weight:100;
+    color: #fff;
+}
+
+.login-icon{
+    padding: 15px, 15px;
+    width: 40px;
+    height: 40px;
+    float:right;
+    background-image: url("../../assets/ghost.png");
+    background-size: cover;
+    -webkit-transition: .25s ease-in-out;
+    /* -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out; */
+    transition: .25s ease-in-out;
+}
+
+.login-icon:hover {
+    -webkit-transform: scale(1.25);
+    transform: scale(1.25);
+  }

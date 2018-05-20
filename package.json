@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "server": "webpack-dev-server --open --https --progress --profile --watch --port 3003",
+    "start": "ng serve --ssl true",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -21,6 +22,7 @@
     "@angular/platform-browser-dynamic": "^6.0.2",
     "@angular/router": "^6.0.2",
     "@ng-bootstrap/ng-bootstrap": "^2.0.0",
+    "@types/uuid": "^3.4.3",
     "bootstrap": "^4.1.1",
     "core-js": "^2.5.4",
     "jquery": "^3.3.1",
